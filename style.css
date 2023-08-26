@@ -99,19 +99,19 @@ nav a img {
 
 .banner {
     display: flex;
+    /* max-width: 1200px; */
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    margin: 40px 100px;
-
-    justify-content: space-between;
+    margin: 40px 0px;
+    justify-content: space-around;
 }
 
 /* slider */
 
 .pic_slider {
   flex-basis: 50%;
-  margin-left: -70px;
+  margin-left: -100px;
 }
 .pic_slider img {
     width: 800px;
